@@ -29,7 +29,7 @@ plot(dataSk$Gross.domestic.product.at.market.prices ~ dataSk$TIME.NA_ITEM ,
      xlab = "Date")
 
 plot(dataSk$Final.consumption.expenditure.of.households ~ dataSk$TIME.NA_ITEM ,
-     main = "Gross Domestic Product per Capita Slovakia",
+     main = "Household expenditure per Capita Slovakia",
      ylab = "Household expenditure",
      xlab = "Date")
 
