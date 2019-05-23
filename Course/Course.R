@@ -49,3 +49,13 @@ ls()  # list objects in global env
 rm(a)  # delete the object 'a'
 # rm(list = ls())  # caution: delete all objects in .GlobalEnv
 gc()  # free system memory
+
+# Vector indexing and slicing
+v1 <- c(100, 200, 300)
+v2 <- c('a', 'b', 'c')
+v1[2]
+v1[1:2] # slicing
+v2[c(1, 3)] # indexing any specific value
+names(v1) <- v2
+v1[c('a', 'c')]
+
